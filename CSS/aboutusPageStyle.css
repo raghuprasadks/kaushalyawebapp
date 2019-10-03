@@ -1,0 +1,106 @@
+/* ABOUT US PAGE CSS */
+/* About Us heading page */
+
+
+
+p {
+  font-size: 19px;
+}
+
+.orangeColor{
+  background-color:#e67300; 
+  color: black;
+}
+
+
+.para{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.content li {
+  font-size: 18px;
+}
+
+
+/*css for tab (Business consultant.... etc) */
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 3px solid darkslategrey;
+  background-color: #e67300;
+  color: black;
+  font-weight: bold;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 3px solid darkslategrey;
+  border-top: none;
+}
+
+/* Css for Card inside the tab (For inforation inside the tab like Business consultant.... etc) */
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+.card {
+  padding: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.img1 {
+  border-radius: 5px 5px 0 0;
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+   text-align: center;
+	width: 16em;
+		
+}
+

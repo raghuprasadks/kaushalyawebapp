@@ -1,0 +1,92 @@
+/*Jumbotron*/
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+	    height: 75px;
+      margin-bottom: 0;
+      padding: 0;
+      background-color: darkslategrey;
+      color: white;
+    }
+   
+  @media screen and (max-width: 900px) {
+   .jumbotron {
+      height: 140px;
+
+    }
+  }
+
+/* logo Section */
+.logoImage{
+  width:65%;
+  display: inline;
+}
+
+@media screen and (max-width: 900px) {
+   .logoImage {
+      width: 35%;
+    }
+  }
+
+
+.name{
+  font-family: 'Courgette'; 
+  font-size: 42px;
+  color:darkslategrey; 
+
+}
+
+@media screen and (max-width: 900px) {
+   .name {
+      font-size: 30px;
+
+    }
+  }
+
+.close:hover,
+.close:focus {
+  color: darkslateblue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*For Nav Bar*/
+/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+
+.icon-bar{
+  background-color: white;
+
+}
+
+    .navbar {
+      background-color: darkslategrey;
+      margin-bottom: 4px; 
+      border-radius: 0;
+
+    }
+
+    li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: white;
+}
+
+
+
+ li  a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+
+li.active   {
+  background-color:#4CAF50;
+}
+
+    /* Add a  background color and some padding to the footer */
+    footer {
+      background-color: #e67300;
+      color: black;
+      padding: 25px;
+    }

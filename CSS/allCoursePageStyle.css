@@ -1,0 +1,70 @@
+
+    /* Course PAGE CSS*/
+
+
+.lightgreyColor{
+  background-color:lightgrey ; 
+  color: black;
+}
+  
+
+.mainPanelHeaderSize{
+  max-height: 85px;
+}
+
+@media screen and (max-width: 900px) {
+   .mainPanelHeaderSize{
+      max-height: 120px;
+    }
+  }
+
+.panel-default{
+    border-color: #e67300;
+}
+
+.mainPanel{
+    border-color: darkslategrey;
+}
+
+.panelHeaderSize{
+  max-height: 90px;
+}
+
+
+
+.panelBodySize{
+  height: 135px;
+}
+
+ .panel-heading {
+    color: #fff !important;
+    background-color: darkslategrey !important;   
+    
+    }
+    
+.panel-footer {
+    background-color: darkslategrey !important;   
+  }
+
+
+
+.color{
+  color: black !important;
+  background-color: #e67300 !important;         
+}
+
+small{
+  color: black !important;
+}
+
+
+ @media screen and (max-width: 900px) {
+    img.logoImage{
+      width: 45%; 
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    h1.name{
+      font-size: 4rem;
+  }

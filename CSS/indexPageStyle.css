@@ -1,0 +1,329 @@
+
+    /* INDEX PAGE CSS*/
+
+
+
+/*For image carousel*/
+
+#myCarousel.carousel .item {
+  height: 250px;
+  margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+     border:0;
+}
+
+.cImg{
+    position: absolute;
+    min-height: 250px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+     border:0;
+}
+
+
+
+  
+  .imgGlyph{
+    background-image: none;
+    color: #f4511e;
+  }
+  .carouselIndicators li {
+    border-color: #f4511e;
+  }
+  .carouselIndicators li.active {
+    background-color: #f4511e;
+  }
+
+  
+ 
+  .item span {
+    font-style: normal;
+  }
+
+
+
+
+
+ /* Hide the carousel text when the screen is less than 450 pixels wide */
+  @media (max-width: 400px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+ 
+ /* Service offerings */
+ .serviceOff{
+  color: white;
+ } 
+
+ .serviceRow{
+  background-color: darkslategrey;
+ }
+
+ .serviceCol{
+  border: 5px solid #ff9933;
+  height: 58px;
+ }
+
+ .darkgreyColor{
+  background-color:darkslategrey; 
+  color: white;
+}
+
+
+
+  .div-body{
+      background-color: white;
+      color: black;
+      border-bottom-right-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+  }
+
+  .div-body img{
+    padding-left: 2%;
+    padding-right: 2%;
+   
+    
+  }
+
+  .div-body img:hover {
+      opacity: 0.7;
+      
+    }
+  .pfont{
+    font-size: 20px;
+  }
+
+  .inLine{
+    display: inline;
+  }
+  
+
+.mainPanelHeaderSize{
+  max-height: 85px;
+}
+
+@media screen and (max-width: 900px) {
+   .mainPanelHeaderSize{
+      max-height: 120px;
+    }
+  }
+
+.panel-default{
+    border-color: #e67300;
+}
+
+.mainPanel{
+    border-color: darkslategrey;
+}
+
+.panelHeaderSize{
+  max-height: 70px;
+}
+
+
+
+.panelBodySize{
+  height: 135px;
+}
+
+ .panel-heading {
+    color: #fff !important;
+    background-color: darkslategrey !important;   
+    
+    }
+    
+.panel-footer {
+    background-color: darkslategrey !important;   
+  }
+
+
+
+.color{
+  color: black !important;
+  background-color: #e67300 !important;         
+}
+
+small{
+  color: black !important;
+}
+
+.custDiv{
+      background-color: #e67300 ;
+      color: black;    
+  }
+
+  .custCol{
+    border: 8px solid darkslategrey;
+    
+  }
+
+  .custLogo{
+     padding-top: 10px;
+     padding-bottom: 10px;
+ 
+  }
+
+ @media screen and (max-width: 900px) {
+    img.logoImage{
+      width: 45%; 
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    h1.name{
+      font-size: 4rem;
+  }
+}
+/* Css for  corousel in aboutUs/testimonials  */
+
+#testimonialdiv h2 {
+  
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 30px 0 60px;
+}
+#testimonialdiv h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: #8fbc54;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+}
+.col-center {
+  margin: 0 auto;
+  float: none !important;
+}
+
+.coloring1{
+  background-color:darkslategrey;
+  color: white;
+  margin-left: auto;
+    margin-right: auto;
+    border:5px solid #e67300; 
+  border-radius: 10px;
+  padding: 6px 12px;
+  min-height: 250px;
+}
+
+@media screen and (max-width: 900px) {
+    .coloring1{
+       max-height: 800px;
+       min-height: 300px;
+  }
+}
+
+.testimonialText  {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 1px;
+    text-align:center;
+
+  }  
+#testimonialCarousel.carousel {
+  margin: 20px auto;
+  padding: 0 40px;
+}
+
+#testimonialCarousel.carouselheight {
+ min-height: 15em;
+}
+
+
+
+#testimonialCarousel.carousel .item {
+  color: #999;
+  font-size: 14px;
+    text-align: center;
+  overflow: hidden;
+    min-height: 190px;
+}
+#testimonialCarousel.carousel .item .img-box {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 3px;
+  border: 2px solid #f4511e;
+  border-radius: 50%;
+}
+#testimonialCarousel.carousel .img-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  
+  border-radius: 50%;
+}
+#testimonialCarousel.carousel .testimonialText {
+  padding: 30px 0 10px;
+}
+#testimonialCarousel.carousel .overview { 
+  font-style: italic;
+  color: burlywood;
+}
+#testimonialCarousel.carousel .overview b {
+  text-transform: uppercase;
+  color: chartreuse;
+}
+#testimonialCarousel.carousel .carousel-control {
+  width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+  background: none;
+}
+#testimonialCarousel.carousel-control i {
+    font-size: 68px;
+  line-height: 42px;
+    position: absolute;
+    display: inline-block;
+  color:#f4511e;
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+#testimonialCarousel.carousel .carousel-indicators {
+  bottom: -40px;
+}
+#testimonialCarousel.carousel-indicators li,  {
+  width: 10px;
+  height: 10px;
+  margin: 1px 3px;
+  border-radius: 50%;
+}
+
+#testimonialCarousel.carousel-indicators li.active{
+  width: 10px;
+  height: 10px;
+  margin: 1px 3px;
+  border-radius: 50%;
+}
+#testimonialCarousel .carouselIndicators li {
+    border-color:   #f4511e;
+  }
+   #testimonialCarousel .carouselIndicators li.active {
+    background-color: #f4511e;
+ }
+.testc.carousel-control.right {
+    background-image: none;
+    color:  #f4511e;
+  }
+
+ .testc.carousel-control.left{
+    background-image: none;
+    color:  #f4511e;
+  }
+
+  .testGlyph{
+  background-image: none;
+  color: #e67300!important;
+}

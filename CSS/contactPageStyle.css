@@ -1,0 +1,101 @@
+.centercol{
+  border: 5px solid darkslategrey;
+}
+
+.centercol{
+  font-size: 21px;
+}
+
+.mapdiv{
+    border: 5px solid darkslategrey;
+}
+.inLine{
+    display: inline;
+  }
+
+	.contact{
+		padding: 1%;
+		height: 400px;
+	}
+
+	
+
+	.col-md-3{
+		background: #e67300;
+		padding: 2%;
+		height: 387px;
+		border-top-left-radius: 0.5rem;
+		border-bottom-left-radius: 0.5rem;
+	}
+	.contact-info{
+		margin-top:1%;
+	}
+	.contact-info img{
+		margin-bottom: 9%;
+	}
+	.contact-info h2{
+		margin-bottom: 8%;
+	}
+	.col-md-9{
+		background: #fff;
+		padding: 2%;
+		border-top-right-radius: 0.5rem;
+		border-bottom-right-radius: 0.5rem;
+	}
+	.contact-form label{
+		font-weight:600;
+	}
+	.contact-form button{
+		background: #e67300;
+		color: #fff;
+		font-weight: 600;
+		width: 25%;
+	}
+	.contact-form button:focus{
+		box-shadow:none;
+	}
+
+
+	.div-header{
+		background: #e67300;
+		border-top-right-radius: 0.5rem;
+		border-top-left-radius: 0.5rem;	
+	}
+
+	.div-body{
+      background-color: white;
+      color: black;
+      border-bottom-right-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+	}
+
+	.div-body img{
+		padding-left: 2%;
+		padding-right: 2%;
+		padding-top:  1%;
+		padding-bottom: 1%;
+		
+	}
+
+	.div-body img:hover {
+      opacity: 0.7;
+      
+    }
+
+   
+
+    .locate{
+    	padding: 1%;
+    }
+
+    p{
+    	
+    	font-size: 21px;
+    }
+
+    /* Add a  background color and some padding to the footer */
+    footer {
+      background-color: #e67300;
+      color: black;
+      padding: 25px;
+    }

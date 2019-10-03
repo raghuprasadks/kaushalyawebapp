@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Testimonial Carousel</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+
+#testimonialdiv h2 {
+	
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+#testimonialdiv h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #8fbc54;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+
+.coloring1{
+  background-color:darkslategrey;
+  color: white;
+  margin-left: auto;
+    margin-right: auto;
+    border:5px solid #e67300; 
+  border-radius: 10px;
+  padding: 6px 12px;
+  min-height: 250px;
+}
+
+@media screen and (max-width: 900px) {
+    .coloring1{
+       max-height: 800px;
+       min-height: 300px;
+  }
+}
+
+.testimonialText  {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 1px;
+    text-align:center;
+
+  }  
+#testimonialCarousel.carousel {
+	margin: 20px auto;
+	padding: 0 40px;
+}
+
+#testimonialCarousel.carouselheight {
+ min-height: 15em;
+}
+
+
+
+#testimonialCarousel.carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 190px;
+}
+#testimonialCarousel.carousel .item .img-box {
+	width: 105px;
+	height: 105px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #f4511e;
+	border-radius: 50%;
+}
+#testimonialCarousel.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: 2 px solid #f4511e; 
+	border-radius: 50%;
+}
+#testimonialCarousel.carousel .testimonialText {
+	padding: 30px 0 10px;
+}
+#testimonialCarousel.carousel .overview {	
+	font-style: italic;
+}
+#testimonialCarousel.carousel .overview b {
+	text-transform: uppercase;
+	color: #7AA641;
+}
+#testimonialCarousel.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+#testimonialCarousel.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color:#f4511e;
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+#testimonialCarousel.carousel .carousel-indicators {
+	bottom: -40px;
+}
+#testimonialCarousel.carousel-indicators li,  {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+
+#testimonialCarousel.carousel-indicators li.active{
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+#testimonialCarousel .carouselIndicators li {
+    border-color:   #f4511e;
+  }
+   #testimonialCarousel .carouselIndicators li.active {
+    background-color: #f4511e;
+ }
+.testc.carousel-control.right {
+    background-image: none;
+    color:  #f4511e;
+  }
+
+ .testc.carousel-control.left{
+    background-image: none;
+    color:  #f4511e;
+  }
+
+  .testGlyph{
+  background-image: none;
+  color: #e67300!important;
+}
+</style>
+</head>
+<body>
+<div id="testimonialdiv" class="container-fluid coloring1">
+	<div class="row">
+		<div class="col-md-8 col-center m-auto">
+			<h2>What our customers say</h2>
+			<div id="testimonialCarousel" class="carousel slide carouselheight" data-ride="carousel">
+				
+				<!-- Wrapper for carousel items -->
+				<div class="carousel-inner">
+					<div class="item carousel-item active blocktextTestimonials">
+						<div class="img-box"><img src="Images/cust-male.jpg" alt=""></div>
+						<p class="testimonialText">A Right place to Re-Skill and Up-Skill yourself. I have joined here to study Selenium Test automation course and training given by Raghu sir is completely useful and up to current industry requirement. 
+						<p class="overview"><b>Deeba Pradeep</b>, QA Lead</p>
+					</div>
+					<div class="item carousel-item">
+						<div class="img-box"><img src="Images/cust-female.png" alt=""></div>
+						<p class="testimonialText">I have attended IOT technical training. It was very helpful for placements.</p>
+						<p class="overview"><b>Renjith Lal CP</b>, Engineering Student</p>
+					</div>
+					<div class="item carousel-item">
+						<div class="img-box"><img src="Images/cust-male.jpg" alt=""></div>
+						<p class="testimonialText">I got very good training on IoT. Timely placement assistance has helped me to bag a job in my area of interest </p>
+						<p class="overview"><b>Pranava Kumar</b>, IoT Engineer </p>
+					</div>
+					<div class="item carousel-item">
+						<div class="img-box"><img src="Images/cust-male.jpg" alt=""></div>
+						<p class="testimonialText">Training on Python and its application has helped me to guide my students. </p>
+						<p class="overview"><b>Prasanna Kumar</b>, Assistant Professor </p>
+					</div>
+                    <div class="item carousel-item">
+						<div class="img-box"><img src="Images/cust-male.jpg" alt=""></div>
+						<p class="testimonialText">Raghu has trained our new hires on MEAN stock. They became productive in a short span </p>
+						<p class="overview"><b>Seetharam Malur</b>, CEO - Incarnus </p>
+					</div>
+					<div class="item carousel-item">
+						<div class="img-box"><img src="Images/cust-male.jpg" alt=""></div>
+						<p class="testimonialText">Raghu has trained new hires of L & T on Architecture, design, IoT and java script technologies. We good very good feedback from L & T Training division about the training provided by Raghu  </p>
+						<p class="overview"><b>Thara Rose</b>, Sage Technologies </p>
+					</div>
+				</div>
+				<!-- Carousel controls -->
+				<a class="left carousel-control testc " href="#testimonialCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left testGlyph" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control testc" href="#testimonialCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right testGlyph" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>                                		                            
